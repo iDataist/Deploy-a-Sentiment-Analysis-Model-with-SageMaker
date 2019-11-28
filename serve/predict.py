@@ -80,9 +80,9 @@ def predict_fn(input_data, model):
     # Make sure to put the model into evaluation mode
     model.eval()
 
-    # Compute the result of applying the model to the input data.
-    out = model(data)
-    # The variable `result` should be a numpy array; a single value 0-1
-    result = out.cpu().detach().numpy()
+    with torch.no_grad():
+        output = model.forward(data)
+
+    result = np.round(output.numpy())
 
     return result
