@@ -4,7 +4,7 @@
 I built a simple web page which a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network which will predict the sentiment of the entered review.
 
 ## Key Skills Demonstrated
-- Process the data with NLTK
+- Process the text data with NLTK
 - Build and train a recurrent neural network with PyTorch
 - Deploy a deep learning model with SageMaker
 
