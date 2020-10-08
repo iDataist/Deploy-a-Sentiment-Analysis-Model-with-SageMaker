@@ -1,7 +1,7 @@
 # Deploying a Sentiment Analysis Model with SageMaker
 
 ## Project Overview
-I built a simple web page that a user can use to enter a movie review. The web page will then send the review off to the deployed recurrent neural network, which will predict the sentiment of the entered review.
+I built a simple web page that a user can use to enter a movie review. The web page will then send the review off to the deployed Recurrent Neural Network (RNN) model, which will predict the sentiment of the entered review.
 <img src="Web App Diagram.svg">
 
 ## Key Skills Demonstrated
